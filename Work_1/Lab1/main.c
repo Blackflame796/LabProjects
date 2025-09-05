@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <locale.h>
 
 void name() {
     puts("********************************************************");
@@ -12,6 +13,7 @@ void name() {
 }
 
 int main() {
+    setlocale(LC_CTYPE, "RUS");
     name();
     return 0;
 }
