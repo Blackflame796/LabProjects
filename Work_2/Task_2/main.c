@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int N, K;
+    int N = 12;
+    int K = 00;
 
-    printf("Введите текущее время (часы минуты): ");
-    scanf("%d %d", &N, &K);
 
     printf("Сейчас %d часов %d минут 00 секунд\n", N, K);
 
