@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int N = 12;
-    int K = 00;
+    int N = 03;
+    int K = 02;
 
 
-    printf("Сейчас %d часов %d минут 00 секунд\n", N, K);
+    printf("Сейчас %d часа(ов) %d минут 00 секунд\n", N, K);
 
     printf("Идет %d минута суток\n", N * 60 + K);
 
