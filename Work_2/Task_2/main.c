@@ -1,10 +1,11 @@
 #include <stdio.h>
+#include <locale.h>
 
 int main() {
-    int N = 03;
-    int K = 02;
-
-
+    setlocale(LC_ALL, "RUS");
+    int N = 15;
+    int K = 35;
+    
     printf("Сейчас %d часа(ов) %d минут 00 секунд\n", N, K);
 
     printf("Идет %d минута суток\n", N * 60 + K);

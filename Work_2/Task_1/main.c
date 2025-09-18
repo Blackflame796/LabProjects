@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <locale.h>
 
 int main()
 {
+    setlocale(LC_ALL, "RUS");
     printf("123\n"); // подзадание 1
 
     printf("1\n2\n3\n"); // подзадание 2
