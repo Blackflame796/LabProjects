@@ -1,3 +1,6 @@
 [submodule "Work_2/Work_2_Homework"]
 	path = Work_2/Work_2_Homework
 	url = https://github.com/Blackflame796/Work_2_Homework
+[submodule "Work_1/Work_1_Homework"]
+	path = Work_1/Work_1_Homework
+	url = https://github.com/Blackflame796/Work_1_Homework.git
