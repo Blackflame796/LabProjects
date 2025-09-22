@@ -42,6 +42,6 @@
 
 **/.idea/
 **/cmake-build-debug/
-**main
+**/main
 **/main.dSYM
 **/.obsidian
