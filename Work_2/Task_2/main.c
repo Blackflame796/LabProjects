@@ -16,6 +16,8 @@ int main() {
     printf("С 8.00 прошло %d секунд\n", seconds_am);
 
     printf("Текущий час = %d/24 суток и текущая минута = %d/60 часа\n", N, K);
-
+    printf("\nПрограмма завершена. Нажмите Enter для выхода...");
+    getchar();
+    getchar();
     return 0;
 }

@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <locale.h>
-#include <stdlib.h>
 
 #define D 2.54
 #define D_S 2.32166
@@ -20,22 +19,6 @@ void task_1()
     printf("Произведение: %d * %d = %d\n", num1, num2, num1 * num2);
     printf("Частное от деления второго числа на первое: %d / %d = %d\n", num1, num2, num2 / num2);
     printf("Остаток от деления второго числа на первое: %d %% %d = %d\n", num1, num2, num2 % num1);
-}
-
-void task_2()
-{
-    int dym;
-    float result_eng, result_esp, result_lit;
-
-    puts("Введите количество дюймов:");
-    scanf("%d", &dym);
-
-    result_eng = D * dym;
-    result_esp = D_S * dym;
-
-    printf("%d дюймов равно:\n", dym);
-    printf("Английских: %.2f см\n", result_eng);
-    printf("Испанских: %.2f см\n", result_esp);
 }
 
 void task_2a()
@@ -75,10 +58,11 @@ void task_3()
 int main()
 {
     setlocale(LC_ALL, "RUS");
-    // task_1();
-    // task_2();
-    // task_2a();
+    task_1();
+    task_2a();
     task_3();
-    // system("pause");
+    printf("\nПрограмма завершена. Нажмите Enter для выхода...");
+    getchar();
+    getchar();
     return 0;
 }
