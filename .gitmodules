@@ -10,3 +10,6 @@
 [submodule "Work_4/Work_4_Homework"]
 	path = Work_4/Work_4_Homework
 	url = https://github.com/Blackflame796/Work_4_Homework.git
+[submodule "Work_5/Work_5_Homework"]
+	path = Work_5/Work_5_Homework
+	url = https://github.com/Blackflame796/Work_5_Homework
