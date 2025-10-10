@@ -1,0 +1,18 @@
+[submodule "Work_2/Work_2_Homework"]
+	path = Work_2/Work_2_Homework
+	url = https://github.com/Blackflame796/Work_2_Homework
+[submodule "Work_1/Work_1_Homework"]
+	path = Work_1/Work_1_Homework
+	url = https://github.com/Blackflame796/Work_1_Homework.git
+[submodule "Work_3/Work_3_Homework"]
+	path = Work_3/Work_3_Homework
+	url = https://github.com/Blackflame796/Work_3_Homework.git
+[submodule "Work_4/Work_4_Homework"]
+	path = Work_4/Work_4_Homework
+	url = https://github.com/Blackflame796/Work_4_Homework.git
+[submodule "Work_5/Work_5_Homework"]
+	path = Work_5/Work_5_Homework
+	url = https://github.com/Blackflame796/Work_5_Homework
+[submodule "Work_6/Work_6_Homework"]
+	path = Work_6/Work_6_Homework
+	url = https://github.com/Blackflame796/Work_6_Homework.git
