@@ -9,6 +9,7 @@ int is_leap_year(int year)
 
 int main()
 {
+    setlocale(LC_ALL, "RUS");
     int yeas;
     printf("Введите год:");
     scanf("%d", &yeas);
