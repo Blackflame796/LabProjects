@@ -22,3 +22,9 @@
 [submodule "Work_7/Work_7_Homework"]
 	path = Work_7/Work_7_Homework
 	url = https://github.com/Blackflame796/Work_7_Homework.git
+[submodule "Work_9/Work_9_Homework"]
+	path = Work_9/Work_9_Homework
+	url = https://github.com/Blackflame796/Work_9_Homework.git
+[submodule "Work_10/Work_10_Homework"]
+	path = Work_10/Work_10_Homework
+	url = https://github.com/Blackflame796/Work_10_Homework.git
