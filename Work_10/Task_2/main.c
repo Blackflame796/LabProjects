@@ -108,7 +108,7 @@ int main() {
     double x, eps;
     int N;
     
-    printf("Введите x в радианах: ");
+    printf("Введите x: ");
     scanf("%lf", &x);
     
     printf("Введите количество членов ряда N (максимум 15): ");
