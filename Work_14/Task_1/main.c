@@ -59,7 +59,7 @@ int put_elements(double *ptr_array, int n) {
     }
     
     printf("└─────────┴──────────────────┴──────────────────┘\n");
-    return n;
+    return 0;
 }
 
 double* calc_elements(double *ptr_array, int n) {

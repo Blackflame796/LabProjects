@@ -9,7 +9,7 @@ typedef double (*TFun)(double);
 double Y(double x);
 double V(double x);
 double fun3(double x);
-void t_rez(TFun f, double xn, double xk, double h, const char* name);
+void t_rez(TFun f, double xn, double xk, double h, char* name);
 
 int main()
 {
@@ -54,7 +54,7 @@ double V(double x) {
     }
 }
 
-void t_rez(TFun f, double xn, double xk, double h, const char* name) {
+void t_rez(TFun f, double xn, double xk, double h, char* name) {
     printf("-----------------------------------------\n");
     printf("|     x        |       %s             |\n", name);
     printf("-----------------------------------------\n");
